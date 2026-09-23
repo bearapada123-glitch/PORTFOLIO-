@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Rivera — Full-Stack Developer & UI/UX Designer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <div class="logo-icon"><i class="fa-solid => fa-code"></i></div>
+                <span>Portfolio<span class="gradient-text">Website</span></span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">Hire Me</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Mobile Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="ambient-glow glow-1"></div>
+            <div class="ambient-glow glow-2"></div>
+
+            <div class="container hero-grid">
+                <div>
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                          
+                    </div>
+                    <h1 class="hero-title">
+                        PORTFOLIO <br>
+                        <span class="gradient-text">WEBSITE</span>
+                    </h1>
+                    <p class="hero-bio">
+                        Hi, I'm Bea Rapada — a Full-Stack Engineer and UX Designer with 6+ years of experience crafting high-performance web applications and sleek digital interfaces.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get in Touch</span>
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://dribbble.com" target="_blank" class="social-icon" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-avatar-wrapper">
+                    <div class="hero-avatar-container">
+                        <img src="ChatGPT Image Sep 22, 2026, 07_28_12 AM.png" alt="Alex Rivera" class="hero-avatar-img">
+                    </div>
+                    <!-- Floating Badges -->
+                    <div class="glass-card floating-badge fb-1">
+                        <div class="fb-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <div>
+                            <div style="font-size: 0.75rem; color: var(--text-muted);">Specialty</div>
+                            <div style="font-weight: 700; font-size: 0.9rem;">Full-Stack & UI</div>
+                        </div>
+                    </div>
+                    <div class="glass-card floating-badge fb-2">
+                        <div class="fb-icon"><i class="fa-solid fa-code-commit"></i></div>
+                        <div>
+                            <div style="font-size: 0.75rem; color: var(--text-muted);">Experience</div>
+                            <div style="font-weight: 700; font-size: 0.9rem;">6+ Years</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="glass-card about-text-card">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Passionate Engineer & Design Enthusiast</h3>
+                        <p>
+                            I bridges the gap between complex engineering logic and intuitive visual design. Over the last 6 years, I've collaborated with startups and enterprises to build cloud-native applications.
+                        </p>
+                        <p>
+                            When I'm not writing code or tweaking UI components in Figma, you can find me contributing to open-source software, writing technical articles, or exploring digital art.
+                        </p>
+
+                        <div class="key-facts">
+                            <div>
+                                <div class="fact-title">Location</div>
+                                <div class="fact-value">San Francisco, CA</div>
+                            </div>
+                            <div>
+                                <div class="fact-title">Degree</div>
+                                <div class="fact-value">B.S. Computer Science</div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 2rem;">
+                            <!-- Downloadable Resume Action -->
+                            <a href="#" onclick="alert('Resume download initiated!'); return false;" class="btn btn-secondary">
+                                <i class="fa-solid fa-download"></i>
+                                <span>Download CV / Resume</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="skills-container">
+                        <!-- Skill Category 1 -->
+                        <div class="glass-card skill-category">
+                            <h4 class="skill-cat-title"><i class="fa-solid fa-laptop-code"></i> Frontend Tech</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">JavaScript (ES6+)</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">React.js</span>
+                                <span class="skill-tag">Next.js</span>
+                                <span class="skill-tag">HTML5 / CSS3</span>
+                                <span class="skill-tag">Tailwind CSS</span>
+                                <span class="skill-tag">Vue.js</span>
+                            </div>
+                        </div>
+
+                        <!-- Skill Category 2 -->
+                        <div class="glass-card skill-category">
+                            <h4 class="skill-cat-title"><i class="fa-solid fa-server"></i> Backend & Database</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Express</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">GraphQL</span>
+                                <span class="skill-tag">REST APIs</span>
+                            </div>
+                        </div>
+
+                        <!-- Skill Category 3 -->
+                        <div class="glass-card skill-category">
+                            <h4 class="skill-cat-title"><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Design</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Git & GitHub</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Figma</span>
+                                <span class="skill-tag">AWS Cloud</span>
+                                <span class="skill-tag">UI/UX Prototyping</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <!-- Category Filter Buttons -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project 1 -->
+                    <div class="glass-card project-card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="FlowPulse Project" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" onclick="return false;" class="btn btn-primary" style="padding: 0.5rem 1rem;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                <a href="#" onclick="return false;" class="btn btn-secondary" style="padding: 0.5rem 1rem;"><i class="fa-brands fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">Web Application</span>
+                            <h3 class="project-title">FlowPulse — Task SaaS</h3>
+                            <p class="project-desc">Real-time collaborative kanban board and team workflow platform featuring drag-and-drop mechanics.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">React</span>
+                                <span class="project-tag">Node.js</span>
+                                <span class="project-tag">Socket.io</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="glass-card project-card" data-category="ui">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Aura Analytics" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" onclick="return false;" class="btn btn-primary" style="padding: 0.5rem 1rem;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">UI/UX Design</span>
+                            <h3 class="project-title">Aura Analytics Dashboard</h3>
+                            <p class="project-desc">A modern dark-mode fintech analytics platform designed for tracking crypto metrics.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Figma</span>
+                                <span class="project-tag">UI System</span>
+                                <span class="project-tag">Prototyping</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="glass-card project-card" data-category="mobile">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80" alt="Zenith Fitness App" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" onclick="return false;" class="btn btn-primary" style="padding: 0.5rem 1rem;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">Mobile App</span>
+                            <h3 class="project-title">Zenith Fitness Companion</h3>
+                            <p class="project-desc">Cross-platform mobile application providing workout routines and caloric breakdown stats.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">React Native</span>
+                                <span class="project-tag">GraphQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="glass-card project-card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" alt="CyberShield API" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" onclick="return false;" class="btn btn-secondary" style="padding: 0.5rem 1rem;"><i class="fa-brands fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">Web Application</span>
+                            <h3 class="project-title">CyberShield Monitoring</h3>
+                            <p class="project-desc">Automated security audit tool inspecting SSL certificates and server vulnerabilities.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Django</span>
+                                <span class="project-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Career Path</span>
+                    <h2 class="section-title">Work & Education</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="timeline-role">Senior Full-Stack Engineer</h3>
+                                <span class="timeline-period">2023 — Present</span>
+                            </div>
+                            <div class="timeline-company">Nexus Cloud Systems</div>
+                            <p class="timeline-desc">
+                                Leading frontend migration to Next.js, boosting core web vitals speed by 40%. Architecting scalable micro-services powering over 100k active daily users.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="timeline-role">Frontend & UX Developer</h3>
+                                <span class="timeline-period">2020 — 2023</span>
+                            </div>
+                            <div class="timeline-company">PixelCraft Digital Agency</div>
+                            <p class="timeline-desc">
+                                Crafted responsive web applications and brand design systems for tech startups. Worked directly with client product managers to iterate prototyping cycles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="timeline-role">B.S. in Computer Science</h3>
+                                <span class="timeline-period">2016 — 2020</span>
+                            </div>
+                            <div class="timeline-company">Eastern Samar Univer</div>
+                            <p class="timeline-desc">
+                                . Specialized in Software Engineering, Human-Computer Interaction (HCI), and Database Systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Let's Connect</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="glass-card contact-info-card">
+                        <div>
+                            <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Have a project in mind?</h3>
+                            <p style="color: var(--text-secondary); margin-bottom: 2.5rem;">
+                                Whether you're looking to build a new product, revamp an existing web app, or just want to connect, feel free to drop a message!
+                            </p>
+
+                            <div class="contact-method">
+                                <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+                                <div>
+                                    <div class="contact-label">Email</div>
+                                    <a href="mailto:alex.rivera@example.com" class="contact-value">alex.rivera@example.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <div class="contact-label">Location</div>
+                                    <div class="contact-value">San Francisco, CA</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="contact-label" style="margin-bottom: 0.8rem;">Connect on Socials</div>
+                            <div class="social-links">
+                                <a href="#" onclick="return false;" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" onclick="return false;" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" onclick="return false;" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card contact-form-card">
+                        <div id="formStatus" class="form-status">
+                            <i class="fa-solid fa-circle-check"></i> Your message has been sent successfully!
+                        </div>
+
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" class="form-control" placeholder="Project Inquiry" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" class="form-control" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Bea Rapada. All rights reserved. Designed & built with HTML, CSS, & Vanilla JS.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Theme Toggle Logic
+            const themeToggleBtn = document.getElementById('themeToggle');
+            const htmlElement = document.documentElement;
+
+            themeToggleBtn.addEventListener('click', () => {
+                const currentTheme = htmlElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                htmlElement.setAttribute('data-theme', newTheme);
+                themeToggleBtn.innerHTML = newTheme === 'dark' 
+                    ? '<i class="fa-solid fa-moon"></i>' 
+                    : '<i class="fa-solid fa-sun"></i>';
+            });
+
+            // Mobile Navigation Toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const navLinks = document.getElementById('navLinks');
+
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                mobileMenuBtn.innerHTML = navLinks.classList.contains('active')
+                    ? '<i class="fa-solid fa-xmark"></i>'
+                    : '<i class="fa-solid fa-bars"></i>';
+            });
+
+            // Close mobile menu when a nav link is clicked
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+                });
+            });
+
+            // Active Link Highlighter on Scroll
+            const sections = document.querySelectorAll('section');
+            const navItems = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    if (window.scrollY >= sectionTop) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('href') === `#${current}`) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+
+            // Projects Category Filter
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    const filterValue = btn.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Contact Form Simulation
+            const contactForm = document.getElementById('contactForm');
+            const formStatus = document.getElementById('formStatus');
+
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                formStatus.classList.add('success');
+                contactForm.reset();
+
+                setTimeout(() => {
+                    formStatus.classList.remove('success');
+                }, 5000);
+            });
+        });
+    </script>
+</body>
+</html>
